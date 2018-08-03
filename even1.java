@@ -11,13 +11,20 @@ class Ideone
 	{
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
-		if(n%2==0)
+		if(n>0)
 		{
-			System.out.println("n is even");
+			if(n%2==0)
+			{
+				System.out.println("Even");
+			}
+			else
+			{
+				System.out.println("Odd");
+			}
 		}
 		else
 		{
-			System.out.println("n is odd");
+			System.out.println("invalid");
 		}
 	}
 }
